@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WoD86</string>
+    <string name="label_signalName">Engine Revolution Speed</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="button_selectDevice">Select Device</string>
+    <string name="title_pairedDevices">Paired Devices</string>
+</resources>

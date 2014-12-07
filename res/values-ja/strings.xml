@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="label_signalName">エンジン回転数</string>
+    <string name="button_connect">接続</string>
+    <string name="button_disconnect">切断</string>
+    <string name="button_selectDevice">デバイス選択</string>
+    <string name="title_pairedDevices">ペアリング済みのデバイス</string>
+</resources>

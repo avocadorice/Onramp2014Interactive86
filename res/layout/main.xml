@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="435dp" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:src="@drawable/icon" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bluefrs" />
+
+    </RelativeLayout>
+
+<LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:orientation="vertical" android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:orientation="horizontal" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="left" android:layout_width="0dp" android:id="@+id/linearLayout3" android:layout_weight="1" android:layout_height="fill_parent">
+            <Button android:layout_height="wrap_content" android:id="@+id/button_connect" android:text="@string/button_connect" android:layout_width="wrap_content" android:layout_gravity="bottom"></Button>
+
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="0dp" android:id="@+id/linearLayout4" android:layout_weight="1" android:layout_height="fill_parent">
+
+
+
+            <Button android:layout_height="wrap_content" android:id="@+id/button_select" android:text="@string/button_selectDevice" android:layout_width="wrap_content" android:layout_gravity="bottom"></Button>
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_width="0dp" android:id="@+id/linearLayout5" android:layout_weight="1" android:layout_height="fill_parent">
+
+            <Button android:layout_height="wrap_content" android:id="@+id/button_disconnect" android:text="@string/button_disconnect" android:layout_width="wrap_content" android:layout_gravity="bottom"></Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
